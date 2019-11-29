@@ -2,7 +2,7 @@
 
 When you are working with certain projects, you might need to track each change made to your database. In this article, we will implement the audit logs using Dapper to keep track of entity objects when we insert/modified/delete them.
 
-To keep things simple, we want to save the following details information in a database.
+To keep things simple, we want to save the following details in a database.
 
  - **Id:** Unique log id.
  - **Action:** Action name, such Insert, Delete and Update
@@ -80,4 +80,4 @@ private static void SaveAuditLogs(List<AuditEntry> auditEntries)
 ```
 [Try it](https://dotnetfiddle.net/A3UaWJ)
 
-This method will read all the related information which we want to store from each entity and store them to the `AuditLog` entity, and then it will save all the logs' information into the database.
+This method will read all the related information we want to store from each entity and store them to the `AuditLog` entity, then it will save all the logs' information into the database.
