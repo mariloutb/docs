@@ -6,7 +6,7 @@ Name: Transaction
 # Dapper - Transaction
 
 ## Description
-Dapper support the transaction and TransactionScope
+Dapper supports the transaction and TransactionScope
 
 ## Transaction
 
@@ -33,7 +33,7 @@ Try it: [.NET Core](https://dotnetfiddle.net/C5koRx) | [.NET Framework](https://
 
 ## TransactionScope
 
-Begin a new transaction scope before starting the connection
+Begin a new transaction scope before starting the connection.
 
 ```csharp
 // using System.Transactions;
