@@ -4,11 +4,11 @@ Permalink: query-db-set-filter
 
 # Query DbSetFilter
 
-## Definition
+## Description
 
 The **Query DbSetFilter** is the old filter API for Entity Framework 6 (EF6) before the code switched to use Interceptor instead.
 
-The feature revamp was done in 2016 to support include and LazyLoading but, also have some limitation such as performance and instance filter that the old code didn't have.
+The feature revamp was done in 2016 to support include and LazyLoading but, it also have some limitations such as performance and instance filter that the old code didn't have.
 
 ## Limitations
 
